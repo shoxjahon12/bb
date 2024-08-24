@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 1234px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff;
+  height: 98px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  height: 98px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+nav > a:hover {
+  color: #7c4ee4;
+}
+
+nav > i {
+  color: #333;
+}
+
+nav > button {
+  padding: 16px 48px;
+  border-radius: 8px;
+  background: #7c4ee4;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+main {
+  width: 100%;
+  height: 796px;
+  background: #7c4ee4;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 796px;
+  gap: 46px;
+}
+
+.hero > div > p {
+  font-size: 16px;
+  color: #fff;
+}
+.hero > div > h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: bold;
+  padding-top: 37px;
+}
+
+.hero > div > p:nth-child(1) {
+  font-weight: bold;
+}
+.hero > div > p:nth-child(3) {
+  padding-top: 28px;
+}
+
+.hero > div > button {
+  padding: 16px 48px;
+  border-radius: 8px;
+  background: #fff;
+  color: #7c4ee4;
+  border: 1px solid transparent;
+  margin-top: 63px;
+}
+section > .box {
+  width: 920px;
+  height: 360px;
+}
